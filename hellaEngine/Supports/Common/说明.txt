@@ -1,0 +1,7 @@
+﻿1.程序的入口是htdocs/service中的index.php,需要在此类中new 一个 RCore_Rest_App的实例，执行run方法(rest目录下的类就是之前的接口的定位方式，可以看一下)
+2.RCore_Rest_App的run方法需要修改，不用美刻之前的methodsetting方式，需要修改我们自己的根据url定位接口的方法，并且checkauth
+3.db的模板找了一个medoo.php，还没有调试过，memcache相关的方法还 不能用，需要安装后调试
+4.所有的类需要在service的index.php中进行autoload，目前还没有做
+5.kxm.class.php是之前美刻的启动require文件，相当于global.php要做的事情，就是autoload啥的，可以参考着改一下。
+
+最近身体和心情都十分不在状态，一点儿也进行不下去，对不住大家了。

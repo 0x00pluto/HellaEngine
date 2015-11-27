@@ -1,0 +1,14 @@
+{
+    "require": {
+        "symfony/event-dispatcher": "2.7.1",
+        "monolog/monolog": "1.13.1",
+        "brandonwamboldt/utilphp": "^1.1",
+        "nikic/php-parser": "^1.4",
+        "symfony/yaml": "^2.7",
+        "symfony/stopwatch": "^2.7",
+        "illuminate/container": "^5.1",
+        "symfony/finder": "^2.7",
+        "illuminate/config": "^5.1",
+        "symfony/property-access": "3.0-dev"
+            }
+}
