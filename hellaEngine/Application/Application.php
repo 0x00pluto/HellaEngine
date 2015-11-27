@@ -158,6 +158,7 @@ class Application extends Container
      */
     protected function afterProcessMessage($postData)
     {
+        
 
     }
 
